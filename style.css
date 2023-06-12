@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+img {
+    width: 70px;
+    height: 50px;
+}
+
+.card-text {
+    color: #fff;
+}
+
+.card-group {
+    padding: 100px 20%;
+}
+
+.card {
+    padding: 30px;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.rounded-pill {
+    border: 1px solid #fff;
+}
+
+.sedanLearnMore {
+    color: hsl(31, 77%, 52%);
+}
+
+.sedanLearnMore:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: #fff;
+}
+
+.suvsLearnMore {
+    color: hsl(184, 100%, 22%);
+}
+
+.suvsLearnMore:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: #fff;
+}
+
+.luxuryLearnMore {
+    color: hsl(179, 100%, 13%);
+}
+
+.luxuryLearnMore:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: #fff;
+}
+
